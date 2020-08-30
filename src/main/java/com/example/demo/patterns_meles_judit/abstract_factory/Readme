@@ -1,0 +1,8 @@
+Author: Miguel Ovejero
+
+#La idea de este patron es poder manejar la creacion de objetos de tipo Proveedor, que a su vez, esta compuesto por otros
+# objetos que tambien hay que manejar su creacion de manera clara.
+#Este proveedor puede ser nacional o del exterior.
+#A pesar que a simple vista podemos trabajar sin esta lluvia de clases(son una banda para algo tan trivial)
+#La idea es poder mostrar que si tuvieramos que programar una flujo diferente de cosas para cada opcion(nacional o exterior)
+#Con este enfoque la posibilidad de hacerlo de manera ordenada, clara y mantenible es muy sencillo.

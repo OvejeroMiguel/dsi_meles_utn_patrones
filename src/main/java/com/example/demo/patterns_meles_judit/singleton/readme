@@ -1,0 +1,8 @@
+La idea del singleton es crear un objeto, uno solo, y que despues todos los que necesiten lo usen.
+
+Un ejemplo, el mas comun, es agarrar y crear una sola instancia de acceso a la base
+de datos. Y no dejar que para cada operacion contra la bd se cree una nueva instancia.
+
+Recordar: la idea es manejar lo mejor posible la creacion de un objeto.
+
+"Un gran poder con lleva una gran responsabilidad"
