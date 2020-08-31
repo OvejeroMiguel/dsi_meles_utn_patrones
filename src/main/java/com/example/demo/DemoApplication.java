@@ -2,6 +2,7 @@ package com.example.demo;
 
 import com.example.demo.patterns_meles_judit.bridge.GestorMediciones;
 import com.example.demo.patterns_meles_judit.composite.GestorRegistrarElemento;
+import com.example.demo.patterns_meles_judit.strategy.GestorCalcularInteres;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,6 +14,12 @@ public class DemoApplication {
         //ejecutarEjemploBridge();
         ejecutarEjemploComposite();
 
+    }
+
+    private static void ejecutarEjemploStrategy(){
+        GestorCalcularInteres gestorCalcularInteres = new GestorCalcularInteres();
+        gestorCalcularInteres.calcularInteresDiarios();
+        gestorCalcularInteres.calcularInteresMensuales();
     }
 
     private static void ejecutarEjemploComposite(){
